@@ -1,0 +1,66 @@
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+}
+
+nav {
+  background: #616161;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+  background: #616161;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#inst {
+  margin-left: 10px;
+}
+
+#tw {
+  margin-left: 10px;
+}
+
+#spf {
+  margin-left: 10px;
+}
+
+#form {
+  margin-top: 3%;
+  position: absolute;
+  left: 40%;
+}
+
+#search {
+  margin-left: 300px;
+}
+
+.input-field {
+  width: 30%;
+}
+
+.label-icon {
+  margin-left: 300px;
+}
+
+.container span {
+  margin-left: 5px;
+}
+
+.fa-facebook-official {
+color: #3b5998;
+}
+
+.fa-google-plus-square {
+  color:#d34836;
+}
