@@ -1,0 +1,51 @@
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: #616161;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer ul {
+  display: flex;
+}
+
+nav {
+  background: #616161;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#inst {
+  margin-left: 10px;
+}
+
+#tw {
+  margin-left: 10px;
+}
+
+#spf {
+  margin-left: 10px;
+}
+
+/*específico desta página*/
+
+h3{
+  margin: 0 0 2rem 0;
+  /*padding-top: 2rem;*/
+  text-align: -webkit-center;
+}
+
+.container-about{
+  /*width: 80%;*/
+  height: 500px;
+  text-align: center;
+  color: rgb(255, 255, 150);
+  /*margin-left: 7rem;*/
+  background-image: url(../img/img_about.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 5rem;
+}
