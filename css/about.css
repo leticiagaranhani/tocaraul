@@ -31,10 +31,6 @@ nav {
 }
 
 /*específico desta página*/
-div{
-  color: rgb(255, 255, 150);
-
-}
 
 h3{
   margin: 0 0 2rem 0;
@@ -46,8 +42,10 @@ h3{
   /*width: 80%;*/
   height: 500px;
   text-align: center;
+  color: rgb(255, 255, 150);
   /*margin-left: 7rem;*/
   background-image: url(../img/img_about.png);
   background-size: 100%;
+  background-repeat: no-repeat;
   padding: 5rem;
 }
