@@ -1,9 +1,9 @@
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+body{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  }
 
 footer ul {
   display: flex;
@@ -36,9 +36,12 @@ footer {
 
 #form {
   margin-top: 3%;
-  position: absolute;
   left: 35%;
 }
+
+#footer {
+   flex: 1 0 auto;
+  }
 
 .fa-facebook-official {
 color: #3b5998;
@@ -46,4 +49,21 @@ color: #3b5998;
 
 .fa-google-plus-square {
   color:#d34836;
+}
+
+.row .col.m7 {
+  width: 25%;
+}
+
+.container-slide{
+  height: 500px;
+  /*background-image: url(../img/img_about.png);*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  background-image: linear-gradient(to right, black 0%,white 100%), url(../img/img_about.png);
+}
+
+.container-prod img{
+  padding: 20px 60px;
 }
