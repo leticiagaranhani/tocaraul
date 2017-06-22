@@ -1,8 +1,1 @@
-$(document).ready(function(){
-      $('.parallax').parallax();
-    });
-
-  //   .parallax-container {
-  //    height: "your height here";
-  //  }
-  //
+$('.carousel.carousel-slider').carousel({fullWidth: true});
