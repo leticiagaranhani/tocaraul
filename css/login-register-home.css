@@ -43,6 +43,9 @@ footer {
    flex: 1 0 auto;
   }
 
+#titulo{
+  font-family: 'Monoton', cursive;
+}
 .fa-facebook-official {
 color: #3b5998;
 }

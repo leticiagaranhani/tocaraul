@@ -36,6 +36,10 @@ nav {
   flex: 1 0 auto;
 }
 
+#titulo{
+  font-family: 'Monoton', cursive;
+}
+
 /*específico desta página*/
 
 h3{
