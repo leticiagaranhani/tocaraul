@@ -46,6 +46,7 @@ footer {
 #titulo{
   font-family: 'Monoton', cursive;
 }
+
 .fa-facebook-official {
 color: #3b5998;
 }
@@ -69,4 +70,9 @@ color: #3b5998;
 
 .container-prod img{
   padding: 20px 60px;
+}
+
+.btn-floating.halfway-fab {
+  right: 0px;
+  bottom: 1px;
 }
