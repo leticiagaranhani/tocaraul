@@ -5,6 +5,8 @@ body{
   flex-direction: column;
   }
 
+
+
 footer ul {
   display: flex;
 }
@@ -74,5 +76,14 @@ color: #3b5998;
 
 .btn-floating.halfway-fab {
   right: 0px;
-  bottom: 1px;
+  bottom: -20px;
 }
+
+.card .card-title {
+    font-size: 20px;
+}
+
+/*.container-home{
+  background: -webkit-linear-gradient(to left, #9bc5c3 , #616161 );
+  background: linear-gradient(to left, #9bc5c3 , #616161 );
+}*/

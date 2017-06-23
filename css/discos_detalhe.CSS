@@ -1,0 +1,23 @@
+body{
+  background-color: #cccccc;
+}
+p ul.li ol.li{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bolder;
+}
+h4{
+  font-size: 20px;
+  font-family: 'Bowlby One', cursive, sans-serif;
+  color:red;
+  margin-left: 30px;
+}
+
+.carousel{
+  margin-top:-90px;
+  margin-left: -100px;
+
+}
+
+.carousel img{
+  width: 300px;
+}
