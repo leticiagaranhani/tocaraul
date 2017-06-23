@@ -1,10 +1,12 @@
+h6{
+  font-size: 40px;
+}
+
 body{
-  font-family: 'Poppins', sans-serif;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   }
-
 
 
 footer ul {
@@ -49,6 +51,19 @@ footer {
   font-family: 'Monoton', cursive;
 }
 
+#slogan{
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#raul {
+  font-family: 'Monoton', cursive;
+}
+
+#verTodos{
+  margin-top: 10px
+}
+
 .fa-facebook-official {
 color: #3b5998;
 }
@@ -61,14 +76,14 @@ color: #3b5998;
   width: 25%;
 }
 
-.container-slide{
-  height: 500px;
-  /*background-image: url(../img/img_about.png);*/
+/*.container-slide{
+  height: auto;
+  background-image: url(../img/img_about.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-blend-mode: color;
   background-image: linear-gradient(to right, black 0%,white 100%), url(../img/img_about.png);
-}
+}*/
 
 .container-prod img{
   padding: 20px 60px;
@@ -82,6 +97,20 @@ color: #3b5998;
 .card .card-title {
     font-size: 20px;
 }
+
+.container-slide {
+  height: 600px;
+}
+
+.parallax{
+      background-image: url(../img/disco1.jpeg);
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
 
 /*.container-home{
   background: -webkit-linear-gradient(to left, #9bc5c3 , #616161 );
