@@ -2,6 +2,10 @@ h6{
   font-size: 40px;
 }
 
+form{
+  color: black;
+}
+
 body{
   display: flex;
   min-height: 100vh;
@@ -114,6 +118,8 @@ color: #3b5998;
 .material-icons:hover {
   background-color: teal;
   }
+
+
 
 
 /*.container-home{

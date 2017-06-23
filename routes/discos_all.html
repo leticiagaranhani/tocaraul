@@ -7,64 +7,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="../css/login-register-home.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../materialize/js/jquery.min.js"></script>
     <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
-    <script type="text/javascript" src="../js/tocaRaul.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
 
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="disco2_detalhe.html">MPB</a></li>
-      <li><a href="disco4_detalhe.html">Pop</a></li>
-      <li><a href="disco1_detalhe.html">Rock</a></li>
-      <li><a href="disco3_detalhe.html">Samba</a></li>
-    </ul>
     <nav>
      <div class="nav-wrapper container">
-       <a id="titulo" href="../routes/home.html" class="brand-logo"><i class="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Toca Raul!</a>
+       <a id="titulo" href="../routes/home.html" class="brand-logo"><i class="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Toca Raul !</a>
          <ul id="nav-mobile" class="right hide-on-med-and-down">
            <li><a href="../routes/discos_all.html"><i class="material-icons left">search</i>Buscar</a></li>
            <li><a href="../routes/about.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Sobre</a></li>
-           <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-music" aria-hidden="true"></i> Estilos<i class="material-icons right">arrow_drop_down</i></a></li>
            <li><a href="../routes/register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Inscreva-se</a></li>
            <li><a href="../routes/login.html" class="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
          </ul>
         </div>
     </nav>
 
-    <div class="container-home">
-      <div class="container-slide">
-        <div class="container">
-            <h1 id="slogan">Para você que é analógico</h1>
-        </div>
-
-        <div class="parallax">
-
-        </div>
-
-
-      </div>
-
-
-        <div class="container">
-          <div class="row">
-              <div class="linha_vertodos">
-              <div class="col s12 m9 l9">
-              <h6>Novidades</h6>
-              </div>
-              <div class="col s12 m9 l3">
-                <a id ="verTodos" href="discos_all.html" class="waves-effect waves-light btn">Ver Todos</a>
-              </div>
-            </div>
-            </div>
-        </div>
-
-
         <div class="container">
           <div class="container-home">
+
+            <div class="row">
+              <div class="linha_vertodos">
+              <div class="col s12 m9 l9">
+              <h6> Discos </h6>
+              </div>
+            </div>
+            </div>
+
             <div class="row">
               <div class="col s12 m6 l3">
                 <div class="card">
@@ -72,7 +44,7 @@
                     <img src="../img/produtos/disco1_fr.jpg">
                     <a href="disco1_detalhe.html"class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
                   </div>
-                  <span class="card-title">Os Mutantes</span>
+                  <span class="card-title">Os Mutantes<br>&nbsp</span>
                   <div class="card-content">
                     <p>"Mutantes"</p>
                   </div>
@@ -98,7 +70,7 @@
                     <img src="../img/produtos/disco3_fr.jpg">
                     <a href="disco3_detalhe.html" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
                   </div>
-                  <span class="card-title">Pink Floyd</span>
+                  <span class="card-title">Pink Floyd<br>&nbsp</span>
                   <div class="card-content">
                     <p>"Atom Heart Mother"</p>
                   </div>
@@ -111,14 +83,67 @@
                     <img src="../img/produtos/disco4_fr.jpg">
                     <a href="disco4_detalhe.html" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
                   </div>
-                  <span class="card-title">Rolling Stones</span>
+                  <span class="card-title">Rolling Stones<br>&nbsp</span>
                   <div class="card-content">
                     <p>"Let it Bleed"</p>
                   </div>
                 </div>
               </div>
-            </div>
-        </div>
+
+              <div class="col s12 m6 l3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="../img/produtos/disco1_fr.jpg">
+                    <a href="disco1_detalhe.html"class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                  </div>
+                  <span class="card-title">Os Mutantes<br>&nbsp</span>
+                  <div class="card-content">
+                    <p>"Mutantes"</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col s12 m6 l3">
+                 <div class="card">
+                   <div class="card-image">
+                     <img src="../img/produtos/disco2_fr.jpg">
+                     <a href="disco2_detalhe.html" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                   </div>
+                   <span class="card-title">Milton Nascimento<br> e Lô Borges</span>
+                   <div class="card-content">
+                     <p>"Clube da Esquina"</p>
+                   </div>
+                 </div>
+               </div>
+
+              <div class="col s12 m6 l3">
+                 <div class="card">
+                   <div class="card-image">
+                     <img src="../img/produtos/disco3_fr.jpg">
+                     <a href="disco3_detalhe.html" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                   </div>
+                   <span class="card-title">Pink Floyd<br>&nbsp</span>
+                   <div class="card-content">
+                     <p>"Atom Heart Mother"</p>
+                   </div>
+                 </div>
+               </div>
+
+              <div class="col s12 m6 l3">
+                 <div class="card">
+                   <div class="card-image">
+                     <img src="../img/produtos/disco4_fr.jpg">
+                     <a href="disco4_detalhe.html" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">add</i></a>
+                   </div>
+                   <span class="card-title">Rolling Stones<br>&nbsp</span>
+                   <div class="card-content">
+                     <p>"Let it Bleed"</p>
+                   </div>
+                 </div>
+               </div>
+
+          </div>
       </div>
     </div>
 
@@ -126,7 +151,7 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-              <h5 id="raul" class="white-text">Toca Raul!</h5>
+                <h5 class="white-text">Toca Raul!</h5>
               </div>
               <div class="col 14 offset-12 s12">
                 <ul>

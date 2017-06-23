@@ -17,16 +17,24 @@
   </head>
   <main>
   <body>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">MPB</a></li>
+      <li><a href="#!">Pop</a></li>
+      <li><a href="#!">Rock</a></li>
+      <li><a href="#!">Samba</a></li>
+    </ul>
     <nav>
-       <div class="nav-wrapper container">
-         <a id="titulo" href="../routes/home.html" class="brand-logo"><i class="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Toca Raul!</a>
-           <ul id="nav-mobile" class="right hide-on-med-and-down">
-             <li><a href="../routes/about.html"><i class="fa fa-music" aria-hidden="true"></i> Sobre</a></li>
-             <li><a href="../routes/register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Inscreva-se</a></li>
-             <li><a href="../routes/login.html" class="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
-           </ul>
-          </div>
-      </nav>
+     <div class="nav-wrapper container">
+       <a id="titulo" href="../routes/home.html" class="brand-logo"><i class="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Toca Raul!</a>
+         <ul id="nav-mobile" class="right hide-on-med-and-down">
+           <li><a href="../routes/discos_all.html"><i class="material-icons left">search</i>Buscar</a></li>
+           <li><a href="../routes/about.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Sobre</a></li>
+           <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-music" aria-hidden="true"></i> Estilos<i class="material-icons right">arrow_drop_down</i></a></li>
+           <li><a href="../routes/register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Inscreva-se</a></li>
+           <li><a href="../routes/login.html" class="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
+         </ul>
+        </div>
+    </nav>
 
 
       <div class="container" width:'100%'>

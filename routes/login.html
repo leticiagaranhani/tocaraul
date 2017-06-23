@@ -8,41 +8,53 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link rel="stylesheet" href="../css/login-register-home.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/tocaRaul.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
 
     <nav>
-     <div class="nav-wrapper container">
-       <a id="titulo" href="../routes/home.html" class="brand-logo"><i class="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Toca Raul!</a>
-         <ul id="nav-mobile" class="right hide-on-med-and-down">
-           <li><a href="../routes/about.html"><i class="fa fa-music" aria-hidden="true"></i> Sobre</a></li>
-           <li><a href="../routes/register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Inscreva-se</a></li>
-           <li><a href="../routes/login.html" class="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
-         </ul>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">MPB</a></li>
+        <li><a href="#!">Pop</a></li>
+        <li><a href="#!">Rock</a></li>
+        <li><a href="#!">Samba</a></li>
+      </ul>
+      <nav>
+       <div class="nav-wrapper container">
+         <a id="titulo" href="../routes/home.html" class="brand-logo"><i class="fa fa-play-circle-o fa-lg" aria-hidden="true"></i> Toca Raul!</a>
+           <ul id="nav-mobile" class="right hide-on-med-and-down">
+             <li><a href="../routes/discos_all.html"><i class="material-icons left">search</i>Buscar</a></li>
+             <li><a href="../routes/about.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> Sobre</a></li>
+             <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-music" aria-hidden="true"></i> Estilos<i class="material-icons right">arrow_drop_down</i></a></li>
+             <li><a href="../routes/register.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Inscreva-se</a></li>
+             <li><a href="../routes/login.html" class="login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
+           </ul>
         </div>
-    </nav>
+      </nav>
 
-<div class="container" id="form">
-  <div class="row">
-    <form class="col s12">
+    <div class="container" id="form">
       <div class="row">
-        <div class="input-field col s6 offset-m3">
-          <i class="material-icons prefix">email</i>
-          <input id="email" type="email" class="validate" placeholder="your-email@xmail.com">
-          <i class="material-icons prefix">dialpad</i>
-          <input id="password" type="password" class="validate" placeholder="password">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6 offset-m3">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate" placeholder="your-email@xmail.com">
+              <i class="material-icons prefix">dialpad</i>
+              <input id="password" type="password" class="validate" placeholder="password">
+            </div>
+          </div>
+        <div class="col s6 offset-m3">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Login
+              <!-- <i class="material-icons right">send</i> -->
+          </button>
+          <p><a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a></p>
         </div>
+        </form>
       </div>
-    <div class="col s6 offset-m3">
-      <button class="btn waves-effect waves-light" type="submit" name="action">Login
-          <i class="material-icons right">send</i>
-      </button>
-      <p><a href="#"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a></p>
     </div>
-    </form>
-  </div>
-</div>
 
     <footer class="page-footer" id="footer">
           <div class="container">
