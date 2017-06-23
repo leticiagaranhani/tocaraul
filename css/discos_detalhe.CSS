@@ -13,8 +13,8 @@ h4{
 }
 
 .carousel{
-  margin-top:-90px;
-  margin-left: -100px;
+  /*margin-top:-90px; isso bloqueia os links do nav*/
+  margin-left: -70px;
 
 }
 
