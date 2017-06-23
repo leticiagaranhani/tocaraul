@@ -111,6 +111,10 @@ color: #3b5998;
       background-size: cover;
     }
 
+.material-icons:hover {
+  background-color: teal;
+  }
+
 
 /*.container-home{
   background: -webkit-linear-gradient(to left, #9bc5c3 , #616161 );
